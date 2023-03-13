@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgb(211, 214, 214);
+}
+
+.row {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+
+
+}
+
+.jor img {
+    /* border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; */
+    border-radius: 30px;
+    border: 1px solid rgb(235, 233, 233);
+   
+    height: 48.8rem;
+    width: 100%;
+    padding-left: rem;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+.text img{
+    border-radius: 50%;
+}
+.text h1{
+    padding-left: 3rem;
+}
+.text h4{
+    padding-left: 3rem;
+}
+form{
+    padding-left: 3rem;
+}
+/* .btn2{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+} */
+
+.btn1:hover {
+    background-color: white;
+    border-radius: 1px solid;
+    color: black;
+}
+
+/* .btn2:hover{
+    background-color: white;
+    border-radius: 1px solid;
+    color: black;
+} */
+.logo-signup{
+    height: 100px;
+    box-shadow: none;
+}
+@media screen and (max-width: 650px) {
+    .jor img {
+        height: 25rem;
+        width: 100%;
+        margin-left: rem;
+        margin-top: rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .form-control{
+height: 0rem;
+width: 100%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .jor img {
+        height: 20rem;
+        width: 100%;
+        margin-left: rem;
+        margin-top: rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+.text h1{
+    padding-left: 0rem;
+}
+.text h4{
+    padding-left: 0rem;
+}
+form{
+    padding-left: 0rem;
+}
+}
+@media screen and (max-width: 443px) {
+  .container-fluid{
+width: 25.6rem;
+height: 100rem;
+margin-left: -3rem;
+margin-top: -6rem;
+  }
+}

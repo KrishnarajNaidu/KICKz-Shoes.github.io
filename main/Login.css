@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ 
+    background-color: rgb(211, 214, 214);
+}
+
+.row {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+
+}
+
+.jor img {
+    /* border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; */
+    border-radius: 30px;
+    border: 1px solid rgb(235, 233, 233);
+    height: 47rem;
+    width: 100%;
+    /* box-shadow: 20px 20px 22px lightgray; */
+
+
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+.btn1:hover {
+    background-color: white;
+    border-radius: 1px solid;
+    color: black;
+}
+
+.logo-signup {
+    height: 100px;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 650px) {
+    .jor img {
+        height: 25rem;
+        width: 100%;
+        margin-left: rem;
+        margin-top: rem;
+    }
+}
+@media screen and (max-width: 410px) {
+    .jor img {
+        height: 20rem;
+        width: 100%;
+        margin-left: rem;
+        margin-top: rem;
+    }
+}
+/* @media screen and (max-width: 1450px) {
+    .main-img {
+        height: 40rem;
+        width: 35rem;
+        margin-left: rem;
+        margin-top: rem;
+
+    }
+} */
+/* 
+@media screen and (max-width: 1420px) {
+    .main-img {
+        height: 30rem;
+        width: 30rem;
+        margin-left: 4rem;
+        margin-top: 4rem;
+
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .main-img {
+        height: 24rem;
+        width: 24rem;
+        margin-top: 5.5rem;
+
+    }
+}
+
+@media screen and (max-width: 1108px) {
+    .main-img {
+        height: 22rem;
+        width: 22rem;
+        margin-top: 6.5rem;
+
+    }
+}
+@media screen and (max-width: 1150px) {
+    .main-img {
+        height: 22rem;
+        width: 22rem;
+        margin-top: 7rem;
+        margin-left: 3rem;
+
+    }
+}
+@media screen and (max-width: 992px) {
+    .main-img {
+      height:auto;
+      width:auto;
+      margin-left: 0rem;
+      margin-top: 4.5rem;
+    }
+} */
+/* @media screen and (max-width: 850px) {
+    .main-img {
+        height: 22rem;
+        width: 22rem;
+        margin-top: 7.5rem;
+        margin-left: 1rem;
+
+    }
+} */
+.text img{
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 443px) {
+    .form-control{
+        height: 0rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 443px) {
+    .container-fluid{
+  width: 25.6rem;
+  height: 100rem;
+  margin-left: -3rem;
+  margin-top: -6rem;
+    }
+  }
+
+  .valid {
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(254, 60, 60);
+}
